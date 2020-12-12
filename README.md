@@ -4,5 +4,7 @@
 Uncomment the tenant app connection strings and run 
 
 Update-Database -ConfigurationTypeName ConfigurationTenants -ConnectionStringName TenantConnectionString
+
 Update-Database -ConfigurationTypeName ConfigurationApp -ConnectionStringName AppConnectionString
+
 Update-Database -ConfigurationTypeName ConfigurationApp -ConnectionStringName AppConnectionString2
